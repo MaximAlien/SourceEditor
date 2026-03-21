@@ -24,6 +24,14 @@
 					<key>XCSourceEditorCommandName</key>
 					<string>Sort imports</string>
 				</dict>
+				<dict>
+					<key>XCSourceEditorCommandClassName</key>
+					<string>$(PRODUCT_MODULE_NAME).BlockCommentCommand</string>
+					<key>XCSourceEditorCommandIdentifier</key>
+					<string>$(PRODUCT_BUNDLE_IDENTIFIER).BlockCommentCommand</string>
+					<key>XCSourceEditorCommandName</key>
+					<string>Wrap in block comment</string>
+				</dict>
 			</array>
 			<key>XCSourceEditorExtensionPrincipalClass</key>
 			<string>$(PRODUCT_MODULE_NAME).SourceEditorExtension</string>
